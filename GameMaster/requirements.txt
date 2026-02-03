@@ -1,10 +1,7 @@
 streamlit
 google-genai
-jupyter
 python-dotenv
 langfuse
 pypdf
 pydantic
 pydantic-settings
-random
-time
