@@ -121,11 +121,9 @@ uv run streamlit run app.py
 
 ## Deployment
 
-**Live Application:** [Your deployed URL]
+**Live Application:** https://gamemaster-capstone.streamlit.app/
 
-**Deployment Platform:** [Streamlit Cloud / Render / Vercel / etc.]
-
-Instructions for deploying your own instance (if applicable).
+**Deployment Platform:** Streamlit Cloud
 
 ## Project Structure
 
@@ -158,6 +156,3 @@ README.md
 ## Team
 
 - Lowie De Wever
-
-
-
