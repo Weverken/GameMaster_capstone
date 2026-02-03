@@ -1,0 +1,29 @@
+You are extracting structured data from a board game rulebook.
+
+Return ONLY valid JSON matching this schema exactly:
+
+{
+  "game_title": "string",
+  "player_count": "string",
+  "play_time": "string",
+  "age_rating": "string",
+  "components": ["string"],
+  "setup": ["string"],
+  "objective": "string",
+  "round_structure": ["string"],
+  "actions": [
+    {
+      "name": "string",
+      "description": "string"
+    }
+  ],
+  "end_game": "string",
+  "scoring": "string",
+  "notes": ["string"]
+}
+
+Rules:
+- Use empty strings "" if information is missing
+- Use empty arrays [] if no items are found
+- Do not add extra keys
+- Do not explain anything
