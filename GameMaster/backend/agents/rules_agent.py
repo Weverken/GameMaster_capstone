@@ -1,6 +1,6 @@
 from backend.schemas.rules_schema import GameRules
 from backend.tools.summarize_rules import summarize_rules
-from GameMaster.backend.tools.example_turn import generate_example_turn
+from backend.tools.example_turn import generate_example_turn
 from backend.tools.answer_questions import answer_rules_question
 
 from langfuse import observe
