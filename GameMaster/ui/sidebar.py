@@ -23,7 +23,7 @@ def render_sidebar():
 
     with st.sidebar:
         st.image(ASSETS_DIR / "logo.png", use_container_width=True)
-        st.header("GameMaster")
+        st.title("GameMaster")
         st.caption("Your AI-powered board game assistant")
         st.divider()
 
